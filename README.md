@@ -1,5 +1,6 @@
+# implement policy gradient from scratch (only use numpy)
 
-## $\theta^* = \arg\max_{\theta}E{\tau \sim \pi_{\theta}(\tau)}[\sum_{t}r(s_{t}, a_{t})]$
+### $\theta^* = \arg\max_{\theta}E{\tau \sim \pi_{\theta}(\tau)}[\sum_{t}r(s_{t}, a_{t})]$
 
 ### Flow
 1. sample $\tau$ from environment
@@ -8,7 +9,7 @@
 4. iterate
 
 
-### References:
+### Reference:
 - http://karpathy.github.io/2016/05/31/rl/
 - https://gymnasium.farama.org/index.html
 - https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
