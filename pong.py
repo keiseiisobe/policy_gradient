@@ -89,9 +89,6 @@ if __name__ == "__main__":
         rs.append(reward)
         y = 1 if action == 2 else 0
         dlogps.append(y - prob)
-        # if action == 3:
-        #    prob = 1 - prob
-        # dlogps.append(1 - prob)
         total_rewards += reward
         if terminated or truncated:
             episodes += 1
