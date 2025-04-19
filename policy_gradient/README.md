@@ -1,4 +1,4 @@
-# implement pong game with policy gradient (reinforcement learning algorithm) from scratch (only use numpy)
+# implement pong game with policy gradient from scratch (only use numpy)
 
 ![alt text](https://ale.farama.org/_images/pong.gif)
 
